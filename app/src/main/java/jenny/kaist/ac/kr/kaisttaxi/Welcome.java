@@ -57,15 +57,3 @@ public class Welcome extends AppCompatActivity {
     }
 }
 
-
-/*
-        mCheatButton.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View v) {
-        Intent cheat = new Intent(MainActivity.this, CheatActivity.class);
-        boolean answerIsTrue = mQuestionBank[mCurrentIndex].isTrueQuestion();
-        cheat.putExtra(CheatActivity.EXTRA_ANSWER_IS_TRUE, answerIsTrue);
-        // startActivity(cheat);
-        startActivityForResult(cheat, 0);
-        }
-        });*/
